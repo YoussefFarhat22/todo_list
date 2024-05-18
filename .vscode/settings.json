@@ -1,0 +1,13 @@
+
+{
+  "workbench.settings.useSplitJSON": false,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div><h1>To do app</h1></div>
+      </header>
+      <main>
+        <div class="sidebar">
+          <div class="sidebar-container">
+            <div class="task-container">
+              <span>All tasks</span>
+            </div>
+
+            <div class="today task-container">
+              <span>Today</span>
+            </div>
+            <div class="week task-container">
+              <span>This week</span>
+            </div>
+            <div class="task-container">
+              <h3>Projects</h3>
+              <div class="project add">
+                <span class="material-symbols-outlined" id="add-project">
+                  add
+                </span>
+                <span>Add project</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-list">
+          <div>
+            <h2>All tasks</h2>
+            <p>Default</p>
+            <div class="task-input">
+              <div class="task add" id="add-task">
+                <span class="material-symbols-outlined"> add </span>
+                <span>Add task</span>
+              </div>
+            </div>
+          </div>
+          <div class="tasks-content">
+            
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <dialog class="center-dialog">
+      <form class="form">
+        <div class="close">X</div>
+        <div>
+          <label for="title">Title</label>
+          <input type="text" id="title" />
+        </div>
+        <div>
+          <label for="description">description</label>
+          <textarea></textarea>
+        </div>
+        <div>
+          <label for="dueDate">dueDate</label>
+          <input type="text" id="dueDate" />
+        </div>
+        <div>
+          <label for="priority">priority</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <button id="addBtn-dialog">Add</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="main.js"></script>
+  </body>
+</html>
